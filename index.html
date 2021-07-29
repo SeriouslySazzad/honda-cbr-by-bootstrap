@@ -1,24 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honda CBR</title>
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/7d339a11a4.js" crossorigin="anonymous"></script>
+
     <!-- Favicon  -->
     <link rel="shortcut icon" href="images/bike-3.png" type="image/x-icon">
     <!-- Bootstrap Stylesheet   -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Custom CSS Stylesheet  -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Header Start -->
     <header>
+        <div class="row p-5 d-flex align-items-center justify-content-between header-section">
+            <div class="col-lg-7 header-contents">
+                <p class="header-paragraph">Computer-controlled digital transistorized with electronic advance</p>
+                <h2 class="text-white">Honda CBR 300R</h2>
+                <p class="header-paragraph">Despite all of the obstacles, many of which where outside of his control,
+                    built Honda Corporation into one of the biggest automobile manufacturers in the world. A bicycle
+                    ride around the world begins with a single pedal stroke which is easy to ride.</p>
+                <div class="">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="text-white p-2 px-5 rounded purchase-button" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Purchase
+                    </button>
 
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Do you like our bikes?</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    If you like our bikes then press "YES'
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                    <button type="button" class="btn btn-primary">Yes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <img src="images/header-bike.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
     </header>
 
     <main>
+        <!-- Start Featured Section  -->
+        <section class="container featured-section">
+            <div class="text-center">
+                <h1>Fetured Bikes 2021</h1>
+                <p>Best Bike Collection</p>
+            </div>
+
+            <div class="featured-images d-flex justify-content-between row">
+                <div class="col-lg-4">
+                    <img class="img-grayscale" src="images/feature-bike.jpg" alt="Feature Bike">
+                </div>
+                <div class="col-sm-4 col-lg-4 col-12">
+                    <img src="images/feature-bike.jpg" alt="Feature Bike">
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-grayscale" src="images/feature-bike.jpg" alt="Feature Bike">
+                </div>
+            </div>
+        </section>
+        <!-- End Featured Section  -->
+
+        <!-- Start Latest Section   -->
+        <section class="container latest-section">
+            <h1 class="text-center">Latest News</h1>
+
+            <div class="card-group gap-4 mt-5">
+                <div class="card align-items-start p-3 pb-1 rounded border-1 border col-12 col-lg-4 col-md-4">
+                    <img class src="images/bike-1.png" class="card-img-top" alt="Ducati XDIAVEL S-73">
+                    <div class="card-body latest-section-body">
+                        <h5 class="card-title mt-5">Ducati XDIAVEL S-73</h5>
+                        <p class="card-text">Italian superbike maker Ducati today launched its cruiser bike XDiavel
+                            priced at Rs 15.87 lakh (ex-showroom Delhi).</p>
+                        <button class="text-white p-2 px-3 rounded read-more-button-active">Read More</button>
+                    </div>
+                </div>
+                <div class="card align-items-start p-3 pb-1 rounded border border-1 col-12 col-lg-4 col-md-4">
+                    <img class src="images/bike-2.png" class="card-img-top" alt="Ducati XDIAVEL S-73">
+                    <div class="card-body latest-section-body">
+                        <h5 class="card-title mt-5">Motorcycles & Scooters</h5>
+                        <p class="card-text">Italian superbike maker Ducati today launched its cruiser bike XDiavel
+                            priced at Rs 15.87 lakh.</p>
+                        <button class="p-2 px-3 rounded read-more-button">Read More</button>
+                    </div>
+                </div>
+                <div class="card align-items-start p-3 pb-1 rounded border border-1 col-12 col-lg-4 col-md-4">
+                    <img class src="images/bike-3.png" class="card-img-top" alt="Ducati XDIAVEL S-73">
+                    <div class="card-body latest-section-body">
+                        <h5 class="card-title mt-5">2021 Honda CBR500R</h5>
+                        <p class="card-text">Italian superbike maker Ducati today launched its cruiser bike XDiavel
+                            priced at Rs 15.87 lakh (ex-showroom Delhi).</p>
+                        <button class="p-2 px-3 rounded read-more-button">Read More</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Latest Section  -->
+
+        <!-- Start Review Section -->
+        <section class="container review-section">
+            <h1 class="text-center">Happy <span>Cliens Says</span></h1>
+
+            <div class="mt-5 clients-review">
+                <div class="card-group gap-5">
+                    <div class="card border p-4 border-2 rounded-3 col-lg-4 text-center align-items-center client-review">
+                        <img src="images/user-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Slate helps you see how many more days you need to work to reach your
+                                financial goal for the month and year.</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star filled-not"></i>
+                            <h4 class="card-title mt-3">Regina Miles</h5>
+                            <h5 class="mt-3">Banker</h5>
+                        </div>
+                    </div>
+                    <div class="card border p-4 border-2 rounded-3 col-lg-4 text-center align-items-center client-review">
+                        <img src="images/user-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Slate helps you see how many more days you need to work to reach your
+                                financial goal for the month and year.</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star filled-not"></i>
+                            <h4 class="card-title mt-3">Sansa Stark</h5>
+                            <h5 class="mt-3">Doctor</h5>
+                        </div>
+                    </div>
+                    <div class="card border p-4 border-2 rounded-3 col-lg-4 text-center align-items-center client-review">
+                        <img src="images/user-3.jpg" class="card-img-top rounded-circle" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Slate helps you see how many more days you need to work to reach your
+                                financial goal for the month and year.</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star filled-not"></i>
+                            <h4 class="card-title mt-3">Hannah Baker</h5>
+                            <h5 class="mt-3">Journalist</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Review Section  -->
 
     </main>
 
@@ -27,6 +187,9 @@
     </footer>
 
     <!-- Bootstrap Script  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,0 +1,148 @@
+/* Google Fonts  */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header start  */
+.header-section {
+    background-color: #264653;
+}
+
+
+.header-section h2 {
+    font-size: 48px;
+}
+
+.header-section p {
+    color: #e0e0e0a6;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header-section .purchase-button {
+    font-size: 18px;
+    background-color: #E76F51;
+}
+
+.header-section img {
+    width: 552px; 
+    height: 447px;
+}
+
+/* Start Featured Section  */
+
+.featured-section {
+    margin-top: 64px;
+    margin-bottom: 100px;
+}
+
+.featured-section h1 {
+    font-size: 48px;
+}
+
+.featured-section p {
+    font-size: 16px;
+    color: #E76F51;
+}
+
+.featured-images {
+    margin-top: 116.5px;
+}
+
+.featured-section img {
+    width: 288px;
+    height: 243px;
+}
+
+.featured-section .img-grayscale {
+    filter: grayscale(100%);
+}
+
+/* End Featured Section  */
+
+/* Start Latest Section  */
+.latest-section {
+    margin-bottom: 100px;
+}
+
+.latest-section h1 {
+    font-size: 48px;
+}
+
+.latest-section img {
+    width: px;
+    height: 256px;
+}
+
+.latest-section .latest-section-body {
+    margin-left: -15px;
+}
+
+.latest-section h5 {
+    font-size: 28px;
+}
+
+.latest-section p {
+    line-height: 32px;
+}
+
+.latest-section .read-more-button-active {
+    margin-top: 40px;
+    font-size: 18px;
+    background-color: #E76F51;
+}
+
+.latest-section .read-more-button {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #E76F51;
+    border-color: #E76F51;
+
+}
+/* Latest Section End  */
+
+/* Start Review Section  */
+.review-section {
+    margin-bottom: 100px;
+}
+
+.review-section h1 {
+    font-size: 48px;
+}
+
+.review-section span {
+    color: #E76F51;
+}
+
+.review-section img {
+    width: 149px;
+    height: 149px;
+}
+
+.review-section p {
+    color: #6C6C6C;
+    line-height: 26px;
+}
+
+.review-section h4 {
+    font-size: 14px;
+    color: #23A6F0;
+}
+
+.review-section h5 {
+    font-size: 14px;
+    color: #252B42;
+    line-height: 24px;
+}
+
+.review-section .fa-star {
+    color: #E77C40;
+}
+
+.review-section .fa-star.filled-not {
+    background: #e76f5171;
+    color: white;
+}
+/* End Review Section  */
