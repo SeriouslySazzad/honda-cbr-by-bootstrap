@@ -1,4 +1,7 @@
 /* Google Fonts  */
+body {
+    overflow-x: hidden;
+}
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -101,6 +104,11 @@
     border-color: #E76F51;
 
 }
+
+.latest-section .read-more-button:hover {
+    color: #fff;
+    background-color: #E76F51;
+}
 /* Latest Section End  */
 
 /* Start Review Section  */
@@ -141,8 +149,67 @@
     color: #E77C40;
 }
 
-.review-section .fa-star.filled-not {
-    background: #e76f5171;
-    color: white;
+.review-section .far.fa-stars {
+    color: #E76F51;
 }
 /* End Review Section  */
+
+/* Start FAQ Section */
+.faq-section {
+    margin-bottom: 100px;
+}
+
+.faq-section h1 {
+    font-size: 48px;
+}
+
+.faq-section span {
+    color: #E76F51;
+}
+
+.faq-section img {
+    width: 431px;
+    height: 423px;
+}
+/* End FAQ Section  */
+
+/* Start New Collection Section  */
+.new-coll-section {
+    margin-bottom: 100px;
+}
+
+.new-coll-section h1 {
+    font-size: 48px;
+    color: black;
+}
+
+.new-coll-section span {
+    color: #E76F51;
+}
+
+.new-coll-section .bike-name {
+    color: yellow;
+}
+
+.new-coll-section p {
+    line-height: 26px;
+}
+
+.new-coll-section img {
+    width: 637px;
+    height: 350px;
+}
+/* End New Collection Section  */
+
+/* Start Feedback Section  */
+.feedback-section {
+    background-color: #264653;
+    border-radius: 10px;
+}
+
+.feedback-section h1 {
+    font-size: 48px;
+    color: black;
+}
+
+/* End Feedback Section  */
